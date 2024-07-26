@@ -31,7 +31,7 @@ export default function Projeto() {
                     titulo='Mercearia Online'
                     descricao='O site da Mercearia Online tem um design moderno e responsivo. Ele oferece uma experiência agradável aos usuários, tornando a exploração dos produtos e o fluxo de compra algo dinâmico e intuitivo. É possível criar uma conta e fazer login.'
                     tecnologias={['REACT.JS', 'NEXT', 'POSTGRESQL']}
-                    hospedagemLink='https://grocery-store-2bmnrmk0e-rodrigoserrasqueiros-projects.vercel.app/'
+                    hospedagemLink='https://grocery-store-jade.vercel.app/'
                     githubLink='https://github.com/RodrigoSerrasqueiro/grocery-store'
                 />
                 <ProjetoCard
