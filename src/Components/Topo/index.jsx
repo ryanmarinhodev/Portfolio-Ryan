@@ -11,7 +11,7 @@ export default function Topo() {
         <header className='header'>
             <div className='limitar-secao navbar'>
                 <div className='nome-topo'>
-                    <a className='link-nome' href='#home'><h1>Rodrigo<span>.dev</span></h1></a>
+                    <a className='link-nome' href='#home'><h1>Ryan<span> .Dev</span></h1></a>
                 </div>
                 <nav>
                     <div className="mobile-menu" onClick={navList}>
