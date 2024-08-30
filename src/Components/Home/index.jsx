@@ -1,8 +1,9 @@
 import './home.css';
 
-import fotoBanner from '../../img/perfil-editado3.png';
+import fotoBanner from '../../img/ryan-photo.jpeg';
 import iconeLinkedin from '../../img/icone-linkedin2.png';
 import iconeGithub from '../../img/icone-github.png';
+
 
 export default function Home() {
     return (
@@ -10,14 +11,14 @@ export default function Home() {
             <div id='home' className='secao-home'>
                 <div className='descricao-home'>
                     <span className='span-desc'>Software Developer</span>
-                    <h1 className='titulo-principal'>Rodrigo Serrasqueiro</h1>
-                    <span className='span'>| Full Stack Developer</span>
+                    <h1 className='titulo-principal'>Ryan Marinho</h1>
+                    <span className='span'>| Front-End Developer</span>
                     <p>
                         Olá, seja bem vindo(a)! Preparado(a) para uma experiência incrível? Prazer, sou desenvolvedor web. Fique a vontade para conhecer melhor o meu trabalho.
                     </p>
 
                     <div className='secao-link'>
-                        <a className='link link-baixarCV' href="curriculo.pdf" download>Baixar CV</a>
+                        <a className='link link-baixarCV' href="curriculo.pdf" download>Baixar CV</a> {/*Trocar*/}
                         <a className='link link-meus-projetos' href='#projetos'>Meus Projetos</a>
                     </div>
 
@@ -25,14 +26,15 @@ export default function Home() {
                         <p>Minhas redes: </p>
                         <div className='secao-minhas-redes'>
                             <a 
-                                href="https://www.linkedin.com/in/rodrigoserrasqueiro/" 
+                                href="https://www.linkedin.com/in/ryan-marinho-861120211/" 
                                 className='link-social' 
                                 target='blank'
                             >
                                 <img src={iconeLinkedin} alt="linkedin" />
+                                
                             </a>
                             <a 
-                                href="https://github.com/rodrigoSerrasqueiro" 
+                                href="https://github.com/ryanmarinhodev" 
                                 className='link-social' 
                                 target='blank'
                             >

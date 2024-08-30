@@ -93,8 +93,8 @@
 }
 
 .link-baixarCV{
-    background-color: #6932f5;
-    border: solid 2px #6932f5;
+    background-color: #007fff;
+    border: solid 2px #007fff;
 }
 
 .link-meus-projetos {
@@ -133,7 +133,7 @@
     padding: 5px 25px;
     background: rgb(63,48,71);
     background: linear-gradient(135deg, rgba(63,48,71,1) 48%, rgba(81,113,165,1) 76%);
-    box-shadow: #6932f5 0px 1px 5px;
+    box-shadow: #007fff 0px 1px 5px;
     border-radius: 100px;
     color: #F4FAFF;
     font-weight: 700;

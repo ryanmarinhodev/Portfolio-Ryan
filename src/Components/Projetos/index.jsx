@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import ProjetoCard from './projetocard.jsx';
 import './projeto.css';
-import youtubeClone from '../../img/projeto-clone-youtube.jpg';
-import rseries from '../../img/projeto-rseries.png';
-import tempoAgora from '../../img/projeto-tempo-agora.png';
+import home3 from '../../img/home3-site.png';
+import ponto3 from '../../img/ponto3-site.png';
+import ecommerce from '../../img/e-commerce.png';
+import geizarabelo from '../../img/geiza-rabelo.png';
 import starWarsCharacters from '../../img/projeto-star-wars-characters.jpg';
-import groceryStore from '../../img/projeto-grocery-store.png';
 
 export default function Projeto() {
     const [verMais, setVerMais] = useState(false);
@@ -27,42 +27,42 @@ export default function Projeto() {
             <h2 className='subtitulo-projeto'>Meus projetos</h2>
             <div className='secao-card-projetos'>
                 <ProjetoCard
-                    imagem={groceryStore}
-                    titulo='Mercearia Online'
-                    descricao='O site da Mercearia Online tem um design moderno e responsivo. Ele oferece uma experiência agradável aos usuários, tornando a exploração dos produtos e o fluxo de compra algo dinâmico e intuitivo. É possível criar uma conta e fazer login.'
-                    tecnologias={['REACT.JS', 'NEXT', 'POSTGRESQL']}
-                    hospedagemLink='https://grocery-store-jade.vercel.app/'
-                    githubLink='https://github.com/RodrigoSerrasqueiro/grocery-store'
+                    imagem={home3}
+                    titulo='Freelancer Home3 Tecnologia'
+                    descricao='O site da Home3 tecnologia tem um design moderno e responsivo. Ele oferece uma experiência agradável aos usuários, tornando a exploração da empresa de forma dinâmica e intuitivo.'
+                    tecnologias={['JAVASCRIPT', 'HTML', 'CSS']}
+                    hospedagemLink='https://home3tecnologia.com/'
+                    githubLink='https://github.com/ryanmarinhodev/home3'
                 />
                 <ProjetoCard
-                    imagem={youtubeClone}
-                    titulo='Youtube Clone'
-                    descricao='Um projeto que consome a própria API de dados do Youtube. Nele é possível criar uma conta, fazer login e publicar um video. Sua interface é bastante fiel a original e contém algumas funcionalidades como pesquisa e navegação por categorias.'
-                    tecnologias={['REACT.JS', 'NODE', 'MONGO DB']}
-                    hospedagemLink='https://youtube-project-ten.vercel.app/'
-                    githubLink='https://github.com/RodrigoSerrasqueiro/Youtube-Project'
+                    imagem={ponto3}
+                    titulo='Freelancer Ponto3 Arquit.'
+                    descricao='Um projeto elegante para uma empresa de arquitetura, com uma galeria que permite troca dinâmica de imagens ao passar o cursor e navegação fácil entre os projetos através de um carrossel.'
+                    tecnologias={['Javascript', 'HTML', 'CSS']}
+                    hospedagemLink='https://ponto3arquitetura.com.br/'
+                    githubLink='https://github.com/ryanmarinhodev/Site-ponto3'
                 />
                 <ProjetoCard
-                    imagem={rseries}
-                    titulo='RSéries'
-                    descricao='Um site que contém várias séries de TV. Utilizando a API do TMDB.org exibimos detalhes sobre cada série em uma experiência de navegação bastante atrativa. É possível pesquisar sobre uma determinada série e navegar por seções.'
-                    tecnologias={['REACT.JS', 'TAILWIND', 'SHADCN']}
-                    hospedagemLink='https://rseries.vercel.app/'
-                    githubLink='https://github.com/RodrigoSerrasqueiro/Rseries'
+                    imagem={ecommerce}
+                    titulo='e-Commerce'
+                    descricao='Um site de comércio online que integra a API do Mercado Livre, oferecendo funcionalidades para busca de produtos, adição ao carrinho, remoção de itens e cálculo de preços.'
+                    tecnologias={['REACT.JS', 'JAVASCRIPT', 'HTML', 'CSS']}
+                    hospedagemLink='https://github.com/ryanmarinhodev/E-commerce'
+                    githubLink='https://github.com/ryanmarinhodev/E-commerce'
                 />
-                {/* Se desejar, adicione mais ProjetoCard para outros projetos */}
+                {/* Projetos parte de cima */}
             </div>
 
             <div className='secao-projeto-ver-mais'>
                 {verMais && (
                     <div className='secao-card-projetos'>
                         <ProjetoCard
-                            imagem={tempoAgora}
-                            titulo='Tempo Agora'
-                            descricao='O site Tempo Agora traz dados reais sobre o clima de qualquer cidade. Inicialmente o app solicita permissão para acessar a localização atual do usuário para exibir dados sobre o clima naquele momento, mas é possível pesquisar por cidades também.'
-                            tecnologias={['HTML', 'CSS', 'JAVASCRIPT']}
-                            hospedagemLink='https://rodrigoserrasqueiro.github.io/Tempo-Agora/'
-                            githubLink='https://github.com/RodrigoSerrasqueiro/Tempo-Agora'
+                            imagem={geizarabelo}
+                            titulo='Freelancer Instituto Rabelo'
+                            descricao='O site do Instituto Rabelo destaca a clínica e a renomada Dra. Geiza Rabelo, cirurgiã-dentista em João Pessoa. Com animações em Javascript, e carrossel de imagens'
+                            tecnologias={['JAVASCRIPT', 'HTML', 'CSS']}
+                            hospedagemLink='https://institutorabelo.site/'
+                            githubLink='https://github.com/ryanmarinhodev/instituto-rabelo'
                         />
 
                         <ProjetoCard
@@ -70,10 +70,9 @@ export default function Projeto() {
                             titulo='Star Wars Characters'
                             descricao='Aqui temos várias informações sobre os personagens da saga Star Wars. Consumindo a API Swapi obtemos detalhes sobre mais de 80 personagens. É possível navegar entre as páginas e, clicando na foto do personagens, ver mais detalhes.'
                             tecnologias={['HTML', 'CSS', 'JAVASCRIPT']}
-                            hospedagemLink='https://rodrigoserrasqueiro.github.io/Star-Wars-Characters/'
-                            githubLink='https://github.com/RodrigoSerrasqueiro/Star-Wars-Characters'
+                            hospedagemLink='https://github.com/ryanmarinhodev/teste'
+                            githubLink='https://github.com/ryanmarinhodev/teste'
                         />
-                        {/* Adicione mais ProjetoCards aqui, se necessário */}
                     </div>
                 )}
             </div>

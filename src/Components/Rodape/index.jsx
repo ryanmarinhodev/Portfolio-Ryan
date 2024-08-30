@@ -7,7 +7,7 @@ export default function Rodape() {
 
     return (
         <footer>
-            <p>&copy; Rodrigo Serrasqueiro - {year}. Todos os direitos reservados</p>
+            <p>&copy; Ryan Marinho - {year}. Todos os direitos reservados</p>
         </footer>
     )
 }

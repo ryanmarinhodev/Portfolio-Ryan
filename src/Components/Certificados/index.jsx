@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import CertificadoCards from './certificadoCards';
 import './certificado.css';
 
-import certificadoPP from '../../img/certificado-pp.png';
+import certificadoPP from '../../img/certificado-ryan.png';
 import certificadoJs from '../../img/certificado-js.png';
 
 export default function Certificados() {

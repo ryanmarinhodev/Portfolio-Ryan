@@ -9,7 +9,7 @@
 }
 
 .titulo-projeto {
-    color: #6932f5;
+    color: #007fff;
     margin-bottom: 15px;
 }
 
@@ -78,8 +78,8 @@
 
 .link-hospedagem {
     text-decoration: none;
-    background-color: #6932f5;
-    border: solid 2px #6932f5;
+    background-color: #007fff;
+    border: solid 2px #007fff;
     box-sizing: border-box;
     padding: 12px 25px;
     border-radius: 8px;

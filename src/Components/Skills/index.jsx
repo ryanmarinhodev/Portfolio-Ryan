@@ -15,7 +15,7 @@ export default function Skills() {
                     imagem={logoFront}
                     descricao='Front-End'
                     tecnologias={
-                        ['HTML', 'CSS', 'Javascript', 'TypeScript', 'React', 'Next', 'Tailwind CSS', 'Styled-components', 'Material UI', 'Shadcn' 
+                        ['HTML', 'CSS', 'Javascript', 'TypeScript', 'React', 'Styled-Components', 'Material UI' 
                         ]
                     }
                 />
@@ -23,13 +23,13 @@ export default function Skills() {
                 <SkillsCard
                     imagem={logoBack}
                     descricao='Back-End'
-                    tecnologias={['Node.js', 'Mongo db', 'PostgreSQL', 'AWS EC2', 'Strapi.']}
+                    tecnologias={['Node.js', 'Mongo db', 'Mysql', 'Sql']}
                 />
 
                 <SkillsCard
                     imagem={logoFerramentas}
                     descricao='Ferramentas/Plataformas'
-                    tecnologias={['Git', 'GitHub', 'Figma']}
+                    tecnologias={['Git', 'GitHub']}
                 />
             </div>
         </section >
