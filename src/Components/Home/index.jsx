@@ -14,11 +14,11 @@ export default function Home() {
                     <h1 className='titulo-principal'>Ryan Marinho</h1>
                     <span className='span'>| Front-End Developer</span>
                     <p>
-                        Olá, seja bem vindo(a)! Preparado(a) para uma experiência incrível? Prazer, sou desenvolvedor web. Fique a vontade para conhecer melhor o meu trabalho.
+                    Bem-vindo ao meu portfólio! Aqui você encontrará uma coleção dos meus projetos, competências e experiência profissional. Sinta-se à vontade para explorar e descobrir como posso colaborar em suas demandas.
                     </p>
 
                     <div className='secao-link'>
-                        <a className='link link-baixarCV' href="curriculo.pdf" download>Baixar CV</a> {/*Trocar*/}
+                        <a className='link link-baixarCV' href="curriculo.pdf" download>Baixar CV</a>
                         <a className='link link-meus-projetos' href='#projetos'>Meus Projetos</a>
                     </div>
 

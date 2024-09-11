@@ -9,9 +9,9 @@ export default function Sobre() {
           <article className="sobre-descricao">
                         <h4>Quem sou eu?</h4>
                         <h2>Ryan Marinho,</h2>
-                        <h2>Desenvolvedor Front-End</h2>
+                        <h2 className='dev'>Desenvolvedor Front-End</h2>
                         <p id='skills'>
-                            Atuando como desenvolvedor web desde abril de 2023, sou apaixonado por transformar ideias em realidade, criando soluções que atendam às necessidades específicas de cada cliente. Sou um profissional proativo, autodidata e com excelente capacidade de comunicação, o que me permite colaborar de forma eficaz em cada projeto que participo.
+                        Desde que iniciei minha jornada como desenvolvedor web em abril de 2023, venho trabalhando em projetos freelancer, onde tenho a oportunidade de transformar ideias em soluções digitais sob medida para cada cliente. Sou movido pela paixão por tecnologia e inovação, sempre buscando formas de melhorar a experiência do usuário e a eficiência dos projetos.
                         </p>
                     </article>
         </section>
