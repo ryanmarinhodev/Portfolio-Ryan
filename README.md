@@ -2,7 +2,6 @@
 🔎 Bem-vindo ao meu portfólio!
 
 
-🗔 Confira a aplicação: https://portfolio-dkimisima.vercel.app
 print projeto
 
 📄 Explicação
