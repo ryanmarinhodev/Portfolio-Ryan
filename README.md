@@ -2,7 +2,9 @@
 🔎 Bem-vindo ao meu portfólio!
 
 
-print projeto
+## Print projeto:
+![Print do Projeto](./src/img/imagem-portfolio.png)
+
 
 📄 Explicação
 Este repositório contém os arquivos do meu portfólio pessoal, onde compartilho informações sobre mim, meus projetos e minhas habilidades. Este portfólio foi criado com o objetivo de mostrar meu trabalho, experiência e habilidades para potenciais empregadores, clientes ou colaboradores. O projeto foi pensado 100% responsivo para que seja utilizado de qualquer dispositivo em qualquer lugar.
