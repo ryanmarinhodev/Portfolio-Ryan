@@ -11,7 +11,7 @@ export default function Sobre() {
                         <h2>Ryan Marinho,</h2>
                         <h2 className='dev'>Desenvolvedor Front-End</h2>
                         <p id='skills'>
-                        Desde que iniciei minha jornada como desenvolvedor web em abril de 2023, venho trabalhando em projetos freelancer, onde tenho a oportunidade de transformar ideias em soluções digitais sob medida para cada cliente. Sou movido pela paixão por tecnologia e inovação, sempre buscando formas de melhorar a experiência do usuário e a eficiência dos projetos.
+                        Desde que iniciei minha jornada como desenvolvedor web freelancer, venho trabalhando em projetos freelancer, onde tenho a oportunidade de transformar ideias em soluções digitais sob medida para cada cliente. Sou movido pela paixão por tecnologia e inovação, sempre buscando formas de melhorar a experiência do usuário e a eficiência dos projetos.
                         </p>
                     </article>
         </section>
