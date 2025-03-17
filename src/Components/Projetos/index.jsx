@@ -39,11 +39,11 @@ export default function Projeto() {
         <br />
         <ProjetoCard
           imagem={home3}
-          titulo="Freelancer Home3 Tecnologia"
-          descricao="O site da Home3 tecnologia tem um design moderno e responsivo. Ele oferece uma experiência agradável aos usuários, tornando a exploração da empresa de forma dinâmica e intuitivo."
-          tecnologias={["JAVASCRIPT", "HTML", "CSS"]}
+          titulo="Freelancer Home3 Tecnologia - React"
+          descricao="O site da Home3 tecnologia tem um design moderno e responsivo. Ele oferece uma experiência agradável aos usuários, tornando a exploração da empresa de forma dinâmica e intu/itivo."
+          tecnologias={[ "REACT.JS", "JAVASCRIPT", "HTML", "CSS"]}
           hospedagemLink="https://home3tecnologia.com/"
-          githubLink="https://github.com/ryanmarinhodev/home3"
+          githubLink="https://github.com/ryanmarinhodev/Home3-react"
         />
         <ProjetoCard
           imagem={ponto3}
