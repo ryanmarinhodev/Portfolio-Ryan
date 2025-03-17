@@ -5,8 +5,9 @@ import home3 from "../../img/home3-site.png";
 import ponto3 from "../../img/ponto3-site.png";
 import ecommerce from "../../img/e-commerce.png";
 import geizarabelo from "../../img/geiza-rabelo.png";
-import starWarsCharacters from "../../img/projeto-star-wars-characters.jpg";
+//import starWarsCharacters from "../../img/projeto-star-wars-characters.jpg";
 import fullstack from "../../img/PROJETOfullstack.png";
+import saas from "../../img/whaticket.png";
 
 export default function Projeto() {
   const [verMais, setVerMais] = useState(false);
@@ -28,6 +29,15 @@ export default function Projeto() {
       <h2 className="subtitulo-projeto">Meus projetos</h2>
       <div className="secao-card-projetos">
         <ProjetoCard
+          imagem={saas}
+          titulo="Projeto de Startup"
+          descricao="Fundei a ITX Solutions, uma startup que transforma o atendimento via WhatsApp com tecnologia de ponta. Trabalhando com um SaaS baseado no Whaticket, utilizando React, TypeScript e PostgreSQL, permitindo a centralização de mensagens do Instagram e WhatsApp."
+          tecnologias={["REACT", "TYPESCRIPT", "PostgreeSQL"]}
+          hospedagemLink="https://app.itxsolutions.tech/login"
+          githubLink="https://github.com/ryanmarinhodev/ITX-SOLUTIONSme3"
+        />
+        <br />
+        <ProjetoCard
           imagem={home3}
           titulo="Freelancer Home3 Tecnologia"
           descricao="O site da Home3 tecnologia tem um design moderno e responsivo. Ele oferece uma experiência agradável aos usuários, tornando a exploração da empresa de forma dinâmica e intuitivo."
@@ -43,14 +53,6 @@ export default function Projeto() {
           hospedagemLink="https://ponto3arquitetura.com.br/"
           githubLink="https://github.com/ryanmarinhodev/Site-ponto3"
         />
-        <ProjetoCard
-          imagem={fullstack}
-          titulo="Projeto Fullstack"
-          descricao="Projeto full-stack desenvolvido com Node.js, React, TypeScript e MySQL (MariaDB). Permite autenticação de usuários, integração com a API do YouTube para exibição e busca de vídeos, e oferece uma interface responsiva e intuitiva."
-          tecnologias={["Javascript", "HTML", "CSS"]}
-          hospedagemLink="https://github.com/ryanmarinhodev/projeto-youtube-api"
-          githubLink="https://github.com/ryanmarinhodev/projeto-youtube-api"
-        />
 
         {/* Projetos parte de cima */}
       </div>
@@ -59,6 +61,14 @@ export default function Projeto() {
         {verMais && (
           <div className="secao-card-projetos">
             <ProjetoCard
+              imagem={fullstack}
+              titulo="Projeto Fullstack"
+              descricao="Projeto full-stack desenvolvido com Node.js, React, TypeScript e MySQL (MariaDB). Permite autenticação de usuários, integração com a API do YouTube para exibição e busca de vídeos, e oferece uma interface responsiva e intuitiva."
+              tecnologias={["Javascript", "HTML", "CSS"]}
+              hospedagemLink="https://github.com/ryanmarinhodev/projeto-youtube-api"
+              githubLink="https://github.com/ryanmarinhodev/projeto-youtube-api"
+            />
+            <ProjetoCard
               imagem={ecommerce}
               titulo="e-Commerce"
               descricao="Um site de comércio online que integra a API do Mercado Livre, oferecendo funcionalidades para busca de produtos, adição ao carrinho, remoção de itens e cálculo de preços."
@@ -66,7 +76,6 @@ export default function Projeto() {
               hospedagemLink="https://github.com/ryanmarinhodev/E-commerce"
               githubLink="https://github.com/ryanmarinhodev/E-commerce"
             />
-
             <ProjetoCard
               imagem={geizarabelo}
               titulo="Freelancer Instituto Rabelo"
@@ -75,15 +84,13 @@ export default function Projeto() {
               hospedagemLink="https://institutorabelo.site/"
               githubLink="https://github.com/ryanmarinhodev/instituto-rabelo"
             />
-
-            <ProjetoCard
+            {/* <ProjetoCard
               imagem={starWarsCharacters}
               titulo="Star Wars Characters"
               descricao="Aqui temos várias informações sobre os personagens da saga Star Wars. Consumindo a API Swapi obtemos detalhes sobre mais de 80 personagens. É possível navegar entre as páginas e, clicando na foto do personagens, ver mais detalhes."
               tecnologias={["HTML", "CSS", "JAVASCRIPT"]}
               hospedagemLink="https://github.com/ryanmarinhodev/teste"
-              githubLink="https://github.com/ryanmarinhodev/teste"
-            />
+              githubLink="https://github.com/ryanmarinhodev/teste" */}
           </div>
         )}
       </div>
