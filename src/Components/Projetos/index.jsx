@@ -30,28 +30,28 @@ export default function Projeto() {
       <div className="secao-card-projetos">
         <ProjetoCard
           imagem={saas}
-          titulo="Projeto de Startup"
+          titulo="Projeto de Startup - ITX Solutions"
           descricao="Fundei a ITX Solutions, uma startup que transforma o atendimento via WhatsApp com tecnologia de ponta. Trabalhando com um SaaS baseado no Whaticket, utilizando React, TypeScript e PostgreSQL, permitindo a centralização de mensagens do Instagram e WhatsApp."
           tecnologias={["REACT", "TYPESCRIPT", "PostgreeSQL"]}
           hospedagemLink="https://app.itxsolutions.tech/login"
-          githubLink="https://github.com/ryanmarinhodev/ITX-SOLUTIONSme3"
+          githubLink="https://github.com/ryanmarinhodev"
         />
         <br />
         <ProjetoCard
-          imagem={home3}
-          titulo="Freelancer Home3 Tecnologia - React"
-          descricao="O site da Home3 tecnologia tem um design moderno e responsivo. Ele oferece uma experiência agradável aos usuários, tornando a exploração da empresa de forma dinâmica e intu/itivo."
-          tecnologias={[ "REACT.JS", "JAVASCRIPT", "HTML", "CSS"]}
-          hospedagemLink="https://home3tecnologia.com/"
-          githubLink="https://github.com/ryanmarinhodev/Home3-react"
+          imagem={ponto3}
+          titulo="Freelancer Ponto3 Arquit. - NextJs"
+          descricao="Projeto elegante para uma empresa de arquitetura, com uma galeria minimalista que permite navegação de projetos atráves de rotas dinâmicas em NextJs. Pensado em performance e experiência do usuário. Utilizando Next.js, React e TypeScript."
+          tecnologias={["NEXTJS", "REACT", "TYPESCRIPT"]}
+          hospedagemLink="https://ponto3arquitetura.com.br"
+          githubLink="https://github.com/ryanmarinhodev/ponto3arq-nextjs"
         />
         <ProjetoCard
-          imagem={ponto3}
-          titulo="Freelancer Ponto3 Arquit."
-          descricao="Um projeto elegante para uma empresa de arquitetura, com uma galeria que permite troca dinâmica de imagens ao passar o cursor e navegação fácil entre os projetos através de um carrossel."
-          tecnologias={["Javascript", "HTML", "CSS"]}
-          hospedagemLink="https://ponto3arquitetura.com.br/"
-          githubLink="https://github.com/ryanmarinhodev/Site-ponto3"
+          imagem={home3}
+          titulo="Freelancer Home3 Tecnologia"
+          descricao="O site da Home3 tecnologia tem um design moderno e responsivo. Ele oferece uma experiência agradável aos usuários, tornando a exploração da empresa de forma dinâmica e intuitivo."
+          tecnologias={["REACT", "JAVASCRIPT", "STYLED"]}
+          hospedagemLink="https://home3tecnologia.com/"
+          githubLink="https://github.com/ryanmarinhodev/Home3-react"
         />
 
         {/* Projetos parte de cima */}
