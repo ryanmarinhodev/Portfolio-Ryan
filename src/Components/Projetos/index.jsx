@@ -31,7 +31,7 @@ export default function Projeto() {
         <ProjetoCard
           imagem={saas}
           titulo="Projeto de Startup - ITX Solutions"
-          descricao="Fundei a ITX Solutions, uma startup que transforma o atendimento via WhatsApp com tecnologia de ponta. Trabalhando com um SaaS baseado no Whaticket, utilizando React, TypeScript e PostgreSQL, permitindo a centralização de mensagens do Instagram e WhatsApp."
+          descricao="Fundei a ITX Solutions, startup que revoluciona o atendimento via WhatsApp com um SaaS em React, TypeScript e PostgreSQL, integrando mensagens de WhatsApp e Instagram em um só lugar."
           tecnologias={["REACT", "TYPESCRIPT", "PostgreeSQL"]}
           hospedagemLink="https://app.itxsolutions.tech/login"
           githubLink="https://github.com/ryanmarinhodev"
@@ -40,15 +40,15 @@ export default function Projeto() {
         <ProjetoCard
           imagem={ponto3}
           titulo="Freelancer Ponto3 Arquit. - NextJs"
-          descricao="Projeto elegante para uma empresa de arquitetura, com uma galeria minimalista que permite navegação de projetos atráves de rotas dinâmicas em NextJs. Pensado em performance e experiência do usuário. Utilizando Next.js, React e TypeScript."
+          descricao="Desenvolvi projeto elegante para empresa de arquitetura com galeria minimalista e rotas dinâmicas em Next.js, focado em performance, usabilidade e experiência fluida com React e TypeScript."
           tecnologias={["NEXTJS", "REACT", "TYPESCRIPT"]}
-          hospedagemLink="https://ponto3arquitetura.com.br"
+          hospedagemLink="https://ponto3arq-nextjs.vercel.app/"
           githubLink="https://github.com/ryanmarinhodev/ponto3arq-nextjs"
         />
         <ProjetoCard
           imagem={home3}
           titulo="Freelancer Home3 Tecnologia"
-          descricao="O site da Home3 tecnologia tem um design moderno e responsivo. Ele oferece uma experiência agradável aos usuários, tornando a exploração da empresa de forma dinâmica e intuitivo."
+          descricao="Criei o site da Home3 Tecnologia com design moderno e responsivo, oferecendo uma experiência fluida e intuitiva, que valoriza a navegação dinâmica e destaca os serviços da empresa."
           tecnologias={["REACT", "JAVASCRIPT", "STYLED"]}
           hospedagemLink="https://home3tecnologia.com/"
           githubLink="https://github.com/ryanmarinhodev/Home3-react"
@@ -63,7 +63,7 @@ export default function Projeto() {
             <ProjetoCard
               imagem={fullstack}
               titulo="Projeto Fullstack"
-              descricao="Projeto full-stack desenvolvido com Node.js, React, TypeScript e MySQL (MariaDB). Permite autenticação de usuários, integração com a API do YouTube para exibição e busca de vídeos, e oferece uma interface responsiva e intuitiva."
+              descricao="Projeto full-stack com Node.js, React, TypeScript e MySQL. Possui autenticação de usuários, integração com API do YouTube e interface responsiva focada em navegação fluida e intuitiva."
               tecnologias={["Javascript", "HTML", "CSS"]}
               hospedagemLink="https://github.com/ryanmarinhodev/projeto-youtube-api"
               githubLink="https://github.com/ryanmarinhodev/projeto-youtube-api"
@@ -71,7 +71,7 @@ export default function Projeto() {
             <ProjetoCard
               imagem={ecommerce}
               titulo="e-Commerce"
-              descricao="Um site de comércio online que integra a API do Mercado Livre, oferecendo funcionalidades para busca de produtos, adição ao carrinho, remoção de itens e cálculo de preços."
+              descricao="Desenvolvi e-commerce com integração à API do Mercado Livre, permitindo busca de produtos, adição e remoção no carrinho, além de cálculo de preços em uma interface simples e eficiente."
               tecnologias={["REACT.JS", "JAVASCRIPT", "HTML", "CSS"]}
               hospedagemLink="https://github.com/ryanmarinhodev/E-commerce"
               githubLink="https://github.com/ryanmarinhodev/E-commerce"
@@ -79,7 +79,7 @@ export default function Projeto() {
             <ProjetoCard
               imagem={geizarabelo}
               titulo="Freelancer Instituto Rabelo"
-              descricao="O site do Instituto Rabelo destaca a clínica e a renomada Dra. Geiza Rabelo, cirurgiã-dentista em João Pessoa. Com animações em Javascript, e carrossel de imagens"
+              descricao="Criei o site do Instituto Rabelo para destacar a clínica e a Dra. Geiza Rabelo, com animações em JavaScript, carrossel de imagens e navegação leve e envolvente."
               tecnologias={["JAVASCRIPT", "HTML", "CSS"]}
               hospedagemLink="https://institutorabelo.site/"
               githubLink="https://github.com/ryanmarinhodev/instituto-rabelo"
